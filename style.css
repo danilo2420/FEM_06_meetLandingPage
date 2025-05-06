@@ -29,6 +29,10 @@ button {
     border-radius: 44px;
 }
 
+button:hover {
+    background-color: #b191d6;
+}
+
 h1 {
     font-size: 32px;
     line-height: 110%;
@@ -86,6 +90,10 @@ header {
 
 .greenButton {
     background-color: #4F96A9;
+}
+
+.greenButton:hover {
+    background-color: #73b7ca;
 }
 
 .greenButton span {
