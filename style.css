@@ -89,6 +89,43 @@ header {
     color: #8FE3F9;
 }
 
+/** Mid section */
+.midSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle1 {
+    margin-top: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle1 .line {
+    border-left: solid gray 1px;
+    height: 80px;
+}
+
+.circle1 .one {
+    border: solid gray 1px;
+    padding: 16px 18px;
+    border-radius: 50%;
+
+    background-color: white;
+
+    font-weight: 800;
+}
+
+
+
+
+.midSection p {
+    text-align: center;
+}
+
 /** Footer section */
 
 footer {
