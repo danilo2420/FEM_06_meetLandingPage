@@ -17,6 +17,17 @@ body {
 }
 
 /* Elements */
+button {
+    all: unset;
+    margin-top: 24px;
+    padding: 16px 40px;
+
+    font-weight: 800;
+    color: white;
+
+    background-color: #855FB1;
+    border-radius: 44px;
+}
 
 /** Header */
 header {
@@ -33,7 +44,6 @@ header {
 /** Top section */
 .topImg1 {
     margin-top: 64px;
-    border: solid red 2px;
     background-image: url(assets/tablet/image-hero.png);
     height: 160px;
     background-size: cover;
@@ -44,9 +54,11 @@ header {
     padding-left: 30px;
     padding-right: 30px;
 
+    border: solid red 2px;
+
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
 }
 
 .topContent h1 {
@@ -59,6 +71,22 @@ header {
 
 .topContent p {
     margin-top: 24px;
+    text-align: center;
+}
+
+.topContent .topButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.greenButton {
+    background-color: #4F96A9;
+}
+
+.greenButton span {
+    color: #8FE3F9;
 }
 
 /** Footer section */
@@ -158,18 +186,6 @@ footer {
     line-height: 160%;
 }
 
-footer button {
-    all: unset;
-    margin-top: 24px;
-    padding: 16px 40px;
-
-    font-weight: 800;
-
-    background-color: #855FB1;
-    border-radius: 44px;
-
-}
-
-footer button span {
+footer button span {     
     color: #DFB8FF;
 }
