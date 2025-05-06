@@ -105,6 +105,10 @@ footer {
     font-weight: 800;
 }
 
+.overlaySection {
+    position: relative;
+}
+
 #overlayImg {
     position: absolute;
     width: 100%;
@@ -128,6 +132,7 @@ footer {
     position: relative;
     z-index: 3;
     padding: 32px;
+    padding-top: 64px;
     padding-bottom: 64px;
 
     text-align: center;
