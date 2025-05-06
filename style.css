@@ -119,7 +119,22 @@ header {
     font-weight: 800;
 }
 
+.imgSection {
 
+    margin: 64px 32px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 5vw;
+}
+
+.imgSection img {
+    width: 100%;
+
+    border-radius: 10px;
+}
 
 
 .midSection p {
