@@ -29,16 +29,21 @@ button {
     border-radius: 44px;
 }
 
+h1 {
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0px;
+    font-weight: 900;
+
+    text-align: center;
+}
+
 /** Header */
 header {
     padding-top: 48px;
 
     display: flex;
     flex-direction: column-reverse;
-}
-
-#logoContainer {
-    border: solid orange 2px;
 }
 
 /** Top section */
@@ -53,8 +58,6 @@ header {
 .topContent {
     padding-left: 30px;
     padding-right: 30px;
-
-    border: solid red 2px;
 
     display: flex;
     flex-direction: column;
@@ -136,8 +139,21 @@ header {
     border-radius: 10px;
 }
 
+.midSection h3 {
+    color: #4F96A9;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.midSection h1 {
+    margin: 16px 32px 32px 32px;
+}
 
 .midSection p {
+    margin: 0px 32px 64px 32px;
+
+    color: #87879D;
     text-align: center;
 }
 
@@ -221,13 +237,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#overlayContent h1 {
-    font-size: 32px;
-    line-height: 110%;
-    letter-spacing: 0px;
-    font-weight: 900;
 }
 
 #overlayContent p {
