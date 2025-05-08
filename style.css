@@ -294,10 +294,21 @@ footer button span {
         flex-direction: row;
         gap: 17px;
     }
+
+    .imgSection {
+        margin: 64px 44px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+        gap: 5vw;
+    }
 }
 
 @media (min-width: 930px) {
     body {
         border: solid orange 2px;
     }
+
 }
