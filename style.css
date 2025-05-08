@@ -272,6 +272,10 @@ footer button span {
         min-height: 220px;
         width: 100vw;
     }
+
+    #overlayImg {
+        background-image: url(assets/desktop/image-footer.jpg);
+    }
 }
 
 @media (min-width:550px) {
