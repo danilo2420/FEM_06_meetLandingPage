@@ -280,9 +280,23 @@ footer button span {
         min-height: 350px;
         width: 100vw;
     }
+
+    .topContent {
+        margin-top: 72px;
+        gap: 24px;
+    }
+
+    .topContent p {
+        max-width: 448px;
+    }
+
+    .topContent .topButtons {
+        flex-direction: row;
+        gap: 17px;
+    }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 930px) {
     body {
         border: solid orange 2px;
     }
