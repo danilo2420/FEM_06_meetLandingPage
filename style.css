@@ -258,3 +258,32 @@ footer {
 footer button span {     
     color: #DFB8FF;
 }
+
+@media (min-width:400px) {
+    body {
+        border: solid purple 2px;
+    }
+
+    .topImg1 {
+        min-height: 220px;
+        width: 100vw;
+    }
+}
+
+@media (min-width:550px) {
+    body {
+        border: solid red 2px;
+    }
+
+    .topImg1 {
+        height: 20vw;
+        min-height: 350px;
+        width: 100vw;
+    }
+}
+
+@media (min-width: 850px) {
+    body {
+        border: solid orange 2px;
+    }
+}
