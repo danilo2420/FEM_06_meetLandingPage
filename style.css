@@ -358,6 +358,28 @@ footer button span {
         margin-bottom: 72px;
     }
 
+    #overlayContent {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 80px;
+        padding: 100px 115px;
+    }
+
+    #overlayContent h1 {
+        max-width: 220px;
+    }
+
+    #overlayContent button {
+        min-width: 120px;
+        margin-top: 0px;
+    }
+
+    #overlayContent p {
+        margin-top: 0px;
+        max-width: 350px;
+    }
+
 
     /*
     .topImg1 {
